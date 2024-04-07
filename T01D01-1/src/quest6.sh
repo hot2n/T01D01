@@ -6,4 +6,5 @@ cd key
 find . -type f -empty -print -delete
 cd ..
 sh unifier.sh
-cp main.key key
+cp main.key main-2.key
+cp main.key main-3.key
