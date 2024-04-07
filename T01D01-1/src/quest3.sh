@@ -16,3 +16,6 @@ git mv *.conf door_configuration/
 git mv *.log door_logs/
 cd ..
 touch quest3.sh
+git add .
+git commit -m '3 коммит создание 3х папок для сортировки файлов (двери), создание файла в src quest3.sh .Остановка процесса с помощью команды kill создание файла quest4.sh'
+git push origin feature/develop
